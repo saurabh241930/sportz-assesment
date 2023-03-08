@@ -2,7 +2,7 @@ import React from "react";
 
 const PlayerCard = ({ id,data }) => {
   const image_url = `https://picsum.photos/id/${id}/200/300`;
-//   I have to use this image link because the given image link is not workin document
+//   I have to use this image link because the given image link is not working
 
   return (
     <div>
