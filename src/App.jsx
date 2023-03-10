@@ -76,7 +76,7 @@ function App() {
       <main className="grid">
         {playerList &&
           playerList.map((data, index) => {
-            return <PlayerCard key={index} id={index} data={data} />;
+            return <PlayerCard key={data.Id} id={index} data={data} />;
           })}
       </main>
     </div>
